@@ -1,0 +1,19 @@
+{
+  "name": "proxy_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^2.0.1"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": ["express proxy server", "protect cookies", "CORS bypass"],
+  "author": "Airat Ahunov",
+  "license": "ISC"
+}
