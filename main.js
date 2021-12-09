@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 const config = require("./config.json");
 
-app.use(cors());
+app.use(cors({ methods: "POST, GET, PUT, OPTIONS, PATCH, DELETE" }));
 app.use(
   "",
   createProxyMiddleware({
